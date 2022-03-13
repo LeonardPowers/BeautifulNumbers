@@ -8,8 +8,9 @@ namespace BeautifulNumbers
 {
     class Program
     {
-        public static long CalculateBeautifulCount(int choices, int pick)
+        public static long CalculateBeautifulCount(int choices, int length)
         {
+            int pick = length / 2;
             var mc = new Multicombination(choices, pick);
             var listExt = mc.GetRows().Select(x => new MulticombinationExt(x));
             var sumEqualsDictionary = listExt.GroupBy(o => o.Sum)
@@ -26,12 +27,13 @@ namespace BeautifulNumbers
                     }
                 }
             }
-            return totalSum;
+            
+            return length%2==0? totalSum: totalSum* choices;
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine(CalculateBeautifulCount(13,6));
+            Console.WriteLine(CalculateBeautifulCount(13,13));
         }
     }
 }
