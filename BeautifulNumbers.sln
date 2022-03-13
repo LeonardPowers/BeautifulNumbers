@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeautifulNumbers", "BeautifulNumbers\BeautifulNumbers.csproj", "{FBAE1A74-14EA-473E-8B19-F85550F94524}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBAE1A74-14EA-473E-8B19-F85550F94524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAE1A74-14EA-473E-8B19-F85550F94524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAE1A74-14EA-473E-8B19-F85550F94524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAE1A74-14EA-473E-8B19-F85550F94524}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C983A49E-EF14-4900-A9D6-ADF662F8E9A5}
+	EndGlobalSection
+EndGlobal
